@@ -44,7 +44,7 @@ spec:
                   key: PASSWORD
       containers:
         - name: playlist-api-container
-          image: oumaymacharrad/playlist-microservice:1.0.13@sha256:338143b5be16a0e00906ab21ec5cb4120972279bcde6ab1e9b142aa6a4f91bd4 
+          image: oumaymacharrad/playlist-microservice:1.0.14@sha256:338143b5be16a0e00906ab21ec5cb4120972279bcde6ab1e9b142aa6a4f91bd4 
           ports:
             - containerPort: 10010
             - containerPort: 8000
