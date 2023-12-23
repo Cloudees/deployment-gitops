@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: videos-web-container
-        image: oumaymacharrad/videos-webapp:1.0.6@sha256:bedb8d61cb60768e41b5f403c0b56dc83585c73903dc4bdb741b2beaf4b9b824 
+        image: oumaymacharrad/videos-webapp:1.0.7@sha256:e153ee966ffdb5e4b44c9e54ea8992664de5b1133cce520b023f502c743f93be 
         ports:
         - containerPort: 80
         resources:
