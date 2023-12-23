@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - front_ns.yaml
+  - front_config_map.yaml
+  - front_deployment.yaml
+  - front_service.yaml
+  - playlist_ns.yaml
+  - playlist_config_map_seed.yaml
+  - playlist_config_map.yaml
+  - playlist_secrets.yaml
+  - playlist_deployment_playlist.yaml
+  - playlist_services.yaml
+  - video_config_map.yaml
+  - video_deployment.yaml
+  - video_services.yaml
