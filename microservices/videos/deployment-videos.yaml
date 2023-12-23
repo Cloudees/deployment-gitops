@@ -27,7 +27,7 @@ spec:
                   key: PASSWORD
       containers:
         - name: videos-api-container
-          image: oumaymacharrad/videos-microservice:1.0.7@sha256:26125a3d632cb52b400813f1aab12f1c2cf1e4748f78ece8a197db9889650957 
+          image: oumaymacharrad/videos-microservice:1.0.8@sha256:26125a3d632cb52b400813f1aab12f1c2cf1e4748f78ece8a197db9889650957 
           ports:
             - containerPort: 10010
             - containerPort: 8000
