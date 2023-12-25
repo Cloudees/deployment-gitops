@@ -18,7 +18,7 @@ spec:
     metadata:
       labels:
         app: videos-web
-        test: test
+        test: test2
     spec:
       containers:
       - name: videos-web-container
